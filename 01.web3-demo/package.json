@@ -1,0 +1,15 @@
+{
+  "name": "01.web3-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "01_example.js",
+  "dependencies": {},
+  "devDependencies": {
+    "web3": "^2.0.0-alpha"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
