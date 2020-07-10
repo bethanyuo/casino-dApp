@@ -58,8 +58,9 @@ $ truffle init
  
 5.	Get your Project ID on Infura.
 
-If you are new, register an account: https://infura.io/register
-If you are an existing user, login: https://infura.io/login
+If you are new, register an account: https://infura.io/register.
+
+If you are an existing user, login: https://infura.io/login.
 
 After logging in, you may use an existing key or create one.
 
@@ -68,7 +69,9 @@ Take note of your Infura Project ID, you will use this later.
 6. Generate a mnemonic. 
 
 If you already have your own, you may skip this step.
+
 Let us use a tool to do this quickly: [iancoleman](https://iancoleman.io/bip39/)
+
 Once you’re on the page, click [GENERATE].
 
 Then, change the Coin selection to ETH – Ethereum and copy the mnemonic for use later.
