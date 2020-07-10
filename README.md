@@ -78,7 +78,7 @@ Scroll down a little further and you’ll see a list of addresses along with the
 Select the first address and send some Ethers to it (using Metamask or your own favorite wallet application) as this account will be used later to deploy the contract.
 
 ## Create Smart Contracts
-1.	We will use the ProvableAPI. Copy the file linked below to the contracts/ folder with usingProvable.sol as the file name if you’re starting from scratch. Otherwise, you may already have it in your project: [Provable API](https://github.com/provable-things/ethereum-api/blob/master/provableAPI_0.5.sol]
+1.	We will use the ProvableAPI. Copy the file linked below to the contracts/ folder with usingProvable.sol as the file name if you’re starting from scratch. Otherwise, you may already have it in your project: [Provable API](https://github.com/provable-things/ethereum-api/blob/master/provableAPI_0.5.sol)
 
 2.	Create the file `contracts/Casino.sol`, this is the main Solidity contract that we will be writing.
 
@@ -136,7 +136,7 @@ Go to the `migrations/` folder and create the file 2_deploy_contracts.js and wri
 *	Use your own Infura Project ID key from the Infura settings in an earlier step
 *	Use your own mnemonic you had generated in an earlier step
  
-Problem 2.	Deploy the application online with IPFS
+## Deploy the application online with IPFS
 1.	Compile your contract:
 ```bash
 truffle compile
@@ -153,7 +153,7 @@ Take note of the deployed Casino contract address.
 this.contractAddress = "0xACe5f17881651B9e1206eaE01c49d7E5A7c761A6"
 ```
  
-4.	Also, in src/app.js, change the `INFURA_KEY` to the Project ID Key from the Infura settings in an earlier step:
+4.	Also, in `src/app.js`, change the `INFURA_KEY` to the Project ID Key from the Infura settings in an earlier step:
 ```js
 // REPLACE WITH YOUR OWN KEY
 const INFURA_KEY = "808b72605bdc4c4482f65907cbeef86d";
