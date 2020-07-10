@@ -58,9 +58,8 @@ $ truffle init
  
 5.	Get your Project ID on Infura.
 
-If you are new, register an account: https://infura.io/register.
-
-If you are an existing user, login: https://infura.io/login.
+* If you are new, register an account: https://infura.io/register.
+* If you are an existing user, login: https://infura.io/login.
 
 After logging in, you may use an existing key or create one.
 
