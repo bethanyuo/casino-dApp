@@ -124,8 +124,7 @@ When all goes well, we process the random number to get it within our “bounds�
 Make sure to handle the case when there is no winner: `bets[winningNumber].length != 0`
  
 8.	Finally, implement a `getContractBalance()` view function so that the frontend can see the total contract balance.
- 
- 
+
 9.	We are now ready to deploy the contracts to the Ropsten Test Network.
 Go to the `migrations/` folder and create the file 2_deploy_contracts.js and write the code below:
 *	First, we require the Casino.sol contract.
@@ -206,7 +205,7 @@ ipfs daemon
 ```
 Keep this terminal running, do not terminate the process.
 
-10.	Open another separate command line and type:
+10. Open another separate command line and type:
 ```bash
 ipfs swarm peers
 ```
